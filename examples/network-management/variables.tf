@@ -3,13 +3,13 @@
 # These parameters must be supplied when consuming this module.
 # ---------------------------------------------------------------------------------------------------------------------
 
-variable "project = my-practice-project1234" {
-  description = "The name of the GCP Project where all resources will be launched."
+variable "project" {
+  description = "my-practice-project1234"
   type        = string
 }
 
-variable "region = northamerica-northeast1" {
-  description = "The Region in which all GCP resources will be launched."
+variable "region" {
+  description = "northamerica-northeast1"
   type        = string
 }
 
