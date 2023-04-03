@@ -9,7 +9,7 @@ variable = "my-practice-project1234" {
 }
 
 variable = "northamerica-northeast1" {
-  description = "The location of the GCP Project where all resources will be launched."
+  description = "The Region in which all GCP resources will be launched."
   type        = string
 }
 
