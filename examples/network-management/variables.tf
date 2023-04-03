@@ -4,13 +4,15 @@
 # ---------------------------------------------------------------------------------------------------------------------
 
 variable "project" {
-  description = "my-practice-project1234"
+  description = "The name of the GCP Project where all resources will be launced."
   type        = string
+  default = "my-practice-project1234"
 }
 
 variable "region" {
-  description = "northamerica-northeast1"
+  description = "The Region in which all GCP resources will be launched."
   type        = string
+  default = "northamerica-northeast1"
 }
 
 # ---------------------------------------------------------------------------------------------------------------------
